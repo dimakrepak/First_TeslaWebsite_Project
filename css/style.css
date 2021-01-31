@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* html{
+    scroll-behavior: auto;
+    
+} */
+
+html,body{
+    font-family:'Gotham';
+    
+}
+
+h1,h2,h3{
+    font-weight: normal;
+}
+
+.full_scroll{
+    position: relative;
+    width: 100%;
+    height:100vh ;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    
+}
+.fullscreen{
+
+position: relative;
+width: 100%;
+height: 100vh;
+scroll-snap-align:  start;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    
+}
+.sidebarr{
+    position: fixed;
+    z-index: 100;
+    top: 35%;
+    left:1%;
+    list-style: none;
+    
+    
+}
+.sidebarr li{
+    display: block;
+    width: 60px;
+    height: 20px;
+    border-left:1px black solid;
+    margin-bottom: 5px;
+}
+.sidebarr li:hover{
+    border-width: 2px;
+    color: black;
+    
+}
+.sidebarr li a{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    color: transparent;
+    
+}
+.sidebarr li a:hover{
+    color: black;
+    transition:0.6s;
+}
+
+.teslalogo{
+   position: absolute;
+   z-index: 10;
+   margin: 15px 20px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top: 12px;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border: 1px rgb(255, 255, 255) solid ;
+    border-radius: 25px;
+    border-width: 3px;
+    cursor: pointer;
+    padding-top: 8px;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition:0.6s
+}
+
+.dd{
+    font-size: 12px;
+    margin-left: 10px;
+    transform:scaleY(1.04);
+    color: black;
+}
+
+.btn2{
+    display:inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    border: 1px rgb(0, 0, 0) solid ;
+    border-radius: 25px;
+    border-width: 3px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 12px;
+    transform:scaleY(1.04);
+    margin-left: 10px;
+
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+    transition:0.6s
+    
+}
+.circle:hover{
+    background-color: black;
+    transition:0.6s
+    
+}
+.plus:hover{
+    fill: white;
+    transition:0.6s
+ }
+    
+/* firstpage */
+/* navbar */
+#img{
+    height: 100vh;
+    background: url('/img/model-3-hero-desktop.jfif')no-repeat center center/cover;
+}
+
+#navbar{
+    overflow: hidden;
+    height: 52px;
+    padding-top: 10px;
+
+}
+.navmarg{
+    margin: 5px;
+}
+
+ #teslalogo {
+    position: absolute;
+    float: left;
+    margin-left: 20px;
+    z-index: 1;
+
+    
+}
+
+
+#linecenter{
+float: left;
+list-style: none;
+margin-left: 450px;
+
+}
+
+#linecenter li{
+float: left;
+
+}
+
+#linecenter a{
+    display:block;
+    text-align: center;
+    margin-left: 19px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+
+#lineright{
+    float:right;
+    list-style: none;
+}
+#lineright li{
+    float: left;
+    
+}
+
+#lineright li a{
+    display: block;
+    margin-left: 13px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    
+}
+/* Model3 */
+#model3{
+    width: 100%;
+    position: absolute;
+    top: 14%;
+    text-align: center;
+    
+}
+#model3 span {
+    font-size: 40px;
+    color: white;
+    
+}
+
+/* home page perfomance at bottom */
+
+#perfomance{
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    height: 116px;
+    text-align: center;
+}
+#perfomance #centerline{
+    position: absolute;
+    left: 30%;
+    
+}
+#perfomance #homefooter #speed{
+    float: left;
+
+}
+#perfomance #homefooter{
+    float:left;
+    display: inline block;
+    width: 159.33px;
+    height: 66px;
+    padding: 10px 20px;
+    color: white;
+}
+#perfomance .brd{
+    border-right: 1px rgb(255, 255, 255) solid;
+}
+
+#perfomance #homefooter p{
+    font-size: 12px;
+    margin-top: 6px;
+    
+}
+
+/* secondpage */
+
+/* aside */
+
+
+
+#side{
+background-color: white;
+float: left;
+width: 25%;
+height: 100%;
+padding: 60px 50px;
+position: relative;
+
+
+}
+#side #mainh{
+
+color: #393C41;
+font-size:17px ;
+
+}
+#side #h2{
+    color: black;
+    font-size:36px ;
+}
+#aboutsafety{
+    padding-top: 16px;
+    font-size: 14px;
+    transform:scaleY(1.04);
+    line-height: 21px;
+    padding-bottom: 14px;
+    margin-bottom: 7%;
+}
+
+#side #rating{
+width: 297px;
+height: 315px;
+background-color: #EEEEEE;
+border-radius: 25px;
+padding: 24px;
+
+
+}
+#side #rating h1{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#side #rating div{
+font-size: 14px;
+transform:scaleY(1.04);
+padding-bottom: 15px;
+color: #393C41;
+}
+#side #rating div span{
+    font-size: 17px;
+    
+}
+#side #rating div .mini{
+
+    font-size: 8px;
+}
+
+
+#side footer{
+    position: absolute;
+    bottom: 5%;
+}
+ .circle{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 3px black solid;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+.circle:hover{
+background-color: black;
+transition:0.6s
+
+}
+.plus:hover{
+    fill: white;
+    transition:0.6s
+}
+
+.learnorder div{
+    float:right;
+    
+}
+
+#carside{
+    float:right;
+    width: 75%;
+    height: 100vh;
+    background: url('/img/model_3_safety_hero.png');
+    background-size: contain;
+
+   /* PAGE3  */
+   /* autopilot background */
+   
+}
+#autopilot{
+    background: url('/img/WCL9WK_autopilot.mp4-2000_QQHSUM.gif')no-repeat;
+    height: 70vh;
+    background-size:cover ;
+    background-position: calc(20%);
+    
+}
+
+#autopilot aside{
+height: 100vh;
+margin-left: 8%;
+padding-top: 5%;
+
+
+}
+
+#autopilot aside #divim{
+    width:270px ;
+    height: 164px;
+    padding: 40px 0;
+}
+
+.divimb{
+
+border-bottom: 1px black solid;
+
+
+}
+#autopilot aside div figure{
+    background: url('/img/autopilot.png')no-repeat ;
+    display: inline-block;
+    background-size: contain;
+    width:40px ;
+    height: 41px;
+}
+#logoauto{
+display: inline-block;
+width: 100%;
+padding-right: 52%;
+}
+#autopilot aside #sonic{
+width: 84px;
+height: 42px;
+float:right;
+font-size: 14px;
+transform:scaleY(1.04);
+line-height:20px ;
+color: #171a20;
+
+}
+#autopilot aside #divim p{
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+
+#autopilot aside #divim h2{
+font-size: 28px;
+
+}
+
+/* footer */
+#future{
+    height: 30vh;
+    padding-left:17% ;
+    padding-right:17% ;
+}
+
+#future main{
+    float: left;
+    margin-top: 5%;
+    
+}
+#future main h1{
+    font-size: 17px;
+    line-height: 20px;
+    color: #171A20;
+}
+
+#future main h2{
+    font-size: 28px;
+    line-height: 36px;
+    color: #171A20;
+
+}
+
+ #xx .btn2{
+   float:right;
+   
+}
+#yy{
+    float: right;
+    width: 250px;
+}
+#future main #xx {
+    margin-top: 7%;
+    width: 300px;
+    position: relative;
+
+}#future main #xx .dd{
+    position: absolute;
+    bottom: 14px;
+    left:35px;
+    
+}
+
+#rr{
+    float: right;
+    height: 100%;
+    width: 60%;
+    font-size: 14px;
+    line-height: 21px;
+    color: #393C41;
+    transform:scaleY(1.04);
+    padding-top: 6%;
+    margin-right: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
